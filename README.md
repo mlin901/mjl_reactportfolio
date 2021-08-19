@@ -1,3 +1,11 @@
+
+# TODO
+
+- Replace favicon
+- Write readme
+- Submit
+
+# OLD STUFF FROM CREATE-REACT_APP BELOW - DELETE**********************
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
