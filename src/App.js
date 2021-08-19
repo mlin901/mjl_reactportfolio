@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import Navbar from './Navbar';
 import Aboutme from './Aboutme';
+import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <div className="content">
         {/* <Aboutme /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <Portfolio />
       </div>
       <Footer />
     </div>
