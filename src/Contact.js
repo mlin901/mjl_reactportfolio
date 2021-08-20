@@ -10,8 +10,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.match(emailRegex)) {
-      alert("Submitted...");
       setEmailValidity('');
+      alert("Submitted...");
+      setName('');
+      setEmail('');
+      setMessage('');
     } else {
       setEmailValidity('invalid')
     }
