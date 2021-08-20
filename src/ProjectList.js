@@ -1,3 +1,6 @@
+// It isn't really necessary to split this out from the Portfolio component,
+// except that enables me to use props, which is what the { projects, heading } 
+// in the first line of code is doing (via destructuring).
 const ProjectList = ({ projects, heading }) => {
 
   return ( 
@@ -12,5 +15,5 @@ const ProjectList = ({ projects, heading }) => {
     </div>
    );
 }
- 
+
 export default ProjectList;
