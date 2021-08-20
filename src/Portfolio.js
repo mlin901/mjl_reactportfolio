@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ProjectList from "./ProjectList";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([
@@ -12,14 +13,8 @@ const Portfolio = () => {
 
   return ( 
     <div className="portfolio">
-    <h2>Portfolio</h2>
-    {projects.map((project) => (
-      <div className="project-preview" key={project.id}>
-        <h2>{ project.title }</h2>
-        <p>{ project.summary}</p>
-      </div>
-    ))}
-  </div>
+      <ProjectList projects={projects} heading="Portfolio" />
+    </div>
    );
 }
  
