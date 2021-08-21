@@ -10,7 +10,7 @@ const Navbar = () => {
       <h1>{ name }</h1>
       <ul className="links">
         <li><Link to="/">About me</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/portfolio'}>Portfolio</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/resume">Resume</Link></li>
       </ul>

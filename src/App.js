@@ -6,8 +6,13 @@ import Contact from './Contact';
 import Resume from './Resume';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// require('dotenv').config();
+
+
 
 function App() {
+
+  // const puburl = process.env.PUBLIC_URL;
   return (
     <Router>
       <div className="App">
@@ -22,7 +27,7 @@ function App() {
 
         <div className="content">
         <Switch>
-          <Route path="/portfolio">
+          <Route path={process.env.PUBLIC_URL + '/'}>
             <Portfolio />
           </Route>
           <Route path="/contact">
