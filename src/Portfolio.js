@@ -12,10 +12,27 @@ const Portfolio = () => {
   ]);
 
   return ( 
-    <div className="portfolio">
-      <ProjectList projects={projects} heading="Portfolio" />
-    </div>
+    <section class="maincontent" id="work">
+      <h2>Portfolio</h2>
+        <div class="cards">
+          <div class="cardcontainer">
+            <figure class="cardfig">
+              <div class="img__wrap">
+
+              </div>
+            </figure>
+          </div>
+        </div>
+
+
+
+    </section>
    );
 }
  
 export default Portfolio;
+
+
+{/* <div className="portfolio">
+<ProjectList projects={projects} heading="Portfolio" />
+</div> */}
