@@ -11,7 +11,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
+        <section id="subtitlearea">
+          <figure>
+          </figure>
+          <p id="subtitle">Web developer and <br /> technical content specialist</p>
+        </section>
+
         <div className="content">
         <Switch>
           <Route path="/portfolio">
