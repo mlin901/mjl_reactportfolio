@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mjl_reactportfolio/static/css/main.a592e5bd.chunk.css",
-    "main.js": "/mjl_reactportfolio/static/js/main.d995f730.chunk.js",
-    "main.js.map": "/mjl_reactportfolio/static/js/main.d995f730.chunk.js.map",
+    "main.css": "/mjl_reactportfolio/static/css/main.b853dc0e.chunk.css",
+    "main.js": "/mjl_reactportfolio/static/js/main.df4e30fc.chunk.js",
+    "main.js.map": "/mjl_reactportfolio/static/js/main.df4e30fc.chunk.js.map",
     "runtime-main.js": "/mjl_reactportfolio/static/js/runtime-main.432b3cf4.js",
     "runtime-main.js.map": "/mjl_reactportfolio/static/js/runtime-main.432b3cf4.js.map",
     "static/js/2.40f09848.chunk.js": "/mjl_reactportfolio/static/js/2.40f09848.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.9d6e894b.chunk.js": "/mjl_reactportfolio/static/js/3.9d6e894b.chunk.js",
     "static/js/3.9d6e894b.chunk.js.map": "/mjl_reactportfolio/static/js/3.9d6e894b.chunk.js.map",
     "index.html": "/mjl_reactportfolio/index.html",
-    "static/css/main.a592e5bd.chunk.css.map": "/mjl_reactportfolio/static/css/main.a592e5bd.chunk.css.map",
+    "static/css/main.b853dc0e.chunk.css.map": "/mjl_reactportfolio/static/css/main.b853dc0e.chunk.css.map",
     "static/js/2.40f09848.chunk.js.LICENSE.txt": "/mjl_reactportfolio/static/js/2.40f09848.chunk.js.LICENSE.txt",
+    "static/media/Marvelizer2.44cbb269.jpg": "/mjl_reactportfolio/static/media/Marvelizer2.44cbb269.jpg",
     "static/media/index.css": "/mjl_reactportfolio/static/media/Matt_pict2.c37158fd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.432b3cf4.js",
     "static/js/2.40f09848.chunk.js",
-    "static/css/main.a592e5bd.chunk.css",
-    "static/js/main.d995f730.chunk.js"
+    "static/css/main.b853dc0e.chunk.css",
+    "static/js/main.df4e30fc.chunk.js"
   ]
 }
