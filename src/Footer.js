@@ -1,5 +1,5 @@
-import email from './email.png';
-import cell from './cell.png';
+import email from './images/email.png';
+import cell from './images/cell.png';
 
 const Footer = () => {
   return ( 
