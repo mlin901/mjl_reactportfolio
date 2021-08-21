@@ -27,16 +27,16 @@ function App() {
 
         <div className="content">
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'}>
+          <Route path={process.env.PUBLIC_URL + '/portfolio'}>
             <Portfolio />
           </Route>
-          <Route path="/contact">
+          <Route path={process.env.PUBLIC_URL + '/contact'}>
             <Contact />
           </Route>
-          <Route path="/resume">
+          <Route path={process.env.PUBLIC_URL + '/resume'}>
             <Resume />
           </Route>
-          <Route path="/">
+          <Route path={process.env.PUBLIC_URL + '/'}>
             <Aboutme />
           </Route>
         </Switch>

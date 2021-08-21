@@ -9,10 +9,10 @@ const Navbar = () => {
     <nav>
       <h1>{ name }</h1>
       <ul className="links">
-        <li><Link to="/">About me</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/'}>About me</Link></li>
         <li><Link to={process.env.PUBLIC_URL + '/portfolio'}>Portfolio</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/contact'}>Contact</Link></li>
+        <li><Link to={process.env.PUBLIC_URL + '/resume'}>Resume</Link></li>
       </ul>
       {/* <div className="links">
         <Link to="/">About me</Link>
