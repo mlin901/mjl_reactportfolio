@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/mjl_reactportfolio/static/css/main.b853dc0e.chunk.css",
-    "main.js": "/mjl_reactportfolio/static/js/main.0fa21d3d.chunk.js",
-    "main.js.map": "/mjl_reactportfolio/static/js/main.0fa21d3d.chunk.js.map",
+    "main.css": "/mjl_reactportfolio/static/css/main.b86c342f.chunk.css",
+    "main.js": "/mjl_reactportfolio/static/js/main.e6fe5733.chunk.js",
+    "main.js.map": "/mjl_reactportfolio/static/js/main.e6fe5733.chunk.js.map",
     "runtime-main.js": "/mjl_reactportfolio/static/js/runtime-main.432b3cf4.js",
     "runtime-main.js.map": "/mjl_reactportfolio/static/js/runtime-main.432b3cf4.js.map",
-    "static/js/2.40f09848.chunk.js": "/mjl_reactportfolio/static/js/2.40f09848.chunk.js",
-    "static/js/2.40f09848.chunk.js.map": "/mjl_reactportfolio/static/js/2.40f09848.chunk.js.map",
+    "static/js/2.9606bd24.chunk.js": "/mjl_reactportfolio/static/js/2.9606bd24.chunk.js",
+    "static/js/2.9606bd24.chunk.js.map": "/mjl_reactportfolio/static/js/2.9606bd24.chunk.js.map",
     "static/js/3.9d6e894b.chunk.js": "/mjl_reactportfolio/static/js/3.9d6e894b.chunk.js",
     "static/js/3.9d6e894b.chunk.js.map": "/mjl_reactportfolio/static/js/3.9d6e894b.chunk.js.map",
     "index.html": "/mjl_reactportfolio/index.html",
-    "static/css/main.b853dc0e.chunk.css.map": "/mjl_reactportfolio/static/css/main.b853dc0e.chunk.css.map",
-    "static/js/2.40f09848.chunk.js.LICENSE.txt": "/mjl_reactportfolio/static/js/2.40f09848.chunk.js.LICENSE.txt",
+    "static/css/main.b86c342f.chunk.css.map": "/mjl_reactportfolio/static/css/main.b86c342f.chunk.css.map",
+    "static/js/2.9606bd24.chunk.js.LICENSE.txt": "/mjl_reactportfolio/static/js/2.9606bd24.chunk.js.LICENSE.txt",
+    "static/media/CalendarAppScreenCap.959a2016.jpg": "/mjl_reactportfolio/static/media/CalendarAppScreenCap.959a2016.jpg",
     "static/media/Marvelizer2.44cbb269.jpg": "/mjl_reactportfolio/static/media/Marvelizer2.44cbb269.jpg",
-    "static/media/index.css": "/mjl_reactportfolio/static/media/Matt_pict2.c37158fd.png"
+    "static/media/index.css": "/mjl_reactportfolio/static/media/Matt_pict2.c37158fd.png",
+    "static/media/carboLoader2.8cf2dde3.jpg": "/mjl_reactportfolio/static/media/carboLoader2.8cf2dde3.jpg",
+    "static/media/sdedoc.362fcdfc.jpg": "/mjl_reactportfolio/static/media/sdedoc.362fcdfc.jpg",
+    "static/media/techBlog.2285132f.jpg": "/mjl_reactportfolio/static/media/techBlog.2285132f.jpg",
+    "static/media/weatherAppScreenshot.c1d46ef4.png": "/mjl_reactportfolio/static/media/weatherAppScreenshot.c1d46ef4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.432b3cf4.js",
-    "static/js/2.40f09848.chunk.js",
-    "static/css/main.b853dc0e.chunk.css",
-    "static/js/main.0fa21d3d.chunk.js"
+    "static/js/2.9606bd24.chunk.js",
+    "static/css/main.b86c342f.chunk.css",
+    "static/js/main.e6fe5733.chunk.js"
   ]
 }
