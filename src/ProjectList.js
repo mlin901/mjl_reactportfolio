@@ -11,7 +11,7 @@ const ProjectList = ({ projects, heading }) => {
         <div className="cardcontainer">
 
           {projects.map((project) => (
-            <figure className="cardfig">
+            <figure className="cardfig" key={project.id}>
               <div className="img__wrap">
                 <img src={ project.image } alt="The Marvelizer web app"></img>
                 <div className="img__description_layer">
