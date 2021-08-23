@@ -10,57 +10,21 @@
   --complement-light: #F6AA1C;
 }
 
-/* All of the following is from Net Ninja, except that I added footer bits and changed some colors************ */
-/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
-
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
-  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
 }
-.navbar, .footer {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-.navbar h1, h2 {
-  color: lightslategray;
-}
-.navbar .links, .footer .links {
-  margin-left: auto;
-}
-.navbar a, .footer a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover, .footer a:hover {
-  color: red;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+.active {
+  /* border-bottom: 3px solid red; */
+  border-bottom: 3px solid var(--offwhite);
+  /* background: var(--ltblue);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  border-radius: 4px; */
 }
 
-.contact {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-}
-.contact label {
-  text-align: left;
-  display: block;
-}
-.contact h2 {
-  font-size: 20px;
-  color: lightslategray;
-  margin-bottom: 30px;
-}
 .contact input, .contact textarea {
   width: 100%;
   padding: 6px 10px;
@@ -74,25 +38,9 @@
   color: #fff;
   border: 0;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
-}
-
-
-/* Something I added */
-
-.invalid {
-  color: red;
-  font-weight: bolder;
-}
-
-
-/* From old project */
- 
-/* UNIVERSAL SELECTOR & BASIC STYLES*/
-
-* {
-  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 3em;
 }
 
 body {
@@ -216,7 +164,7 @@ main {
 
 .textcont p {
   padding-left: 1em; 
-  margin-bottom: .4em;
+  margin-bottom: 3em;
   line-height: 1.4;
 }
 
@@ -250,6 +198,11 @@ main {
   color: white;
   width: 17rem;
   font-size: .9em;
+}
+
+.invalid {
+  color: red;
+  font-weight: bolder;
 }
 
   /* Contact area */
@@ -399,7 +352,7 @@ footer {
 
 .proj_links, .proj_title {
     font-weight: bolder;
-    font-size: 1.15em;
+    /* font-size: 1.15em; */
 }
 
 .img__wrap:hover .img__description {
