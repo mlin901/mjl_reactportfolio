@@ -61,7 +61,7 @@ const Portfolio = () => {
   ]);
 
   return ( 
-    <section class="maincontent" id="work">
+    <section className="maincontent" id="work">
       <div className="portfolio">
         <ProjectList projects={projects} heading="Portfolio" />
       </div>

@@ -55,13 +55,24 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--offwhite);
+  /* color: var(--medblue); */
+}
+
+
 a:hover {
   color: var(--complement-semidark);
 }
 
-a:visited {
-  color: var(--offwhite);
+a.textlink {
+  color: var(--ltblue);
 }
+a.textlink:visited {
+  color: var(--ltblue);
+}
+
+
 
 
 /* HEADER AREA */
@@ -82,6 +93,10 @@ h1 {
   width: 9.75em;
   text-align: center;
   margin: auto;
+}
+
+h4 {
+  margin-top: 1em;
 }
 
   /* For TOC links in header */
@@ -162,10 +177,13 @@ main {
   line-height: 1.5;
 }
 
-.textcont p {
+/* .textcont p {
   padding-left: 1em; 
   margin-bottom: 3em;
   line-height: 1.4;
+} */
+.textcont {
+  margin-bottom: 3em;
 }
 
 .cardfig {   
@@ -259,7 +277,7 @@ footer {
   }
   .maincontent h2 {
       text-align: right;
-      width: 160px;
+      width: 168px;
   }
   .manincontent:first-child {   
       flex: 0 0 100%;
@@ -304,9 +322,7 @@ footer {
 }
 
 
-/* ************************************* */
 
-/* relevant styles */
 .img__wrap {
   position: relative;
   display: inline-block;

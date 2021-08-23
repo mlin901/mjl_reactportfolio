@@ -22,9 +22,9 @@ const Contact = () => {
 
   return ( 
     <div className="contact">
-      <section class="maincontent">
+      <section className="maincontent">
         <h2>Contact</h2>
-        <div class="textcont">
+        <div className="textcont">
           <form onSubmit={ handleSubmit }>
             <label>Name:</label>
             <input 

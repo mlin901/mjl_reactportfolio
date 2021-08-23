@@ -4,7 +4,7 @@
 const ProjectList = ({ projects, heading }) => {
 
   return ( 
-    <section class="maincontent" id="work">
+    <section className="maincontent" id="work">
 
       <h2>Portfolio</h2>
       <div className="cards">
@@ -19,7 +19,7 @@ const ProjectList = ({ projects, heading }) => {
                     { project.description }<br/><br />
                     Deployed: <a className='proj_links' href={ project.deployed }>{ project.deployed }</a><br />
                     {/* Not all projects have a github repo, which makes the following conditinal template necessary */}
-                    { project.github && <div>GitHub: <a className='proj_links' href={ project.github }>{ project.github }</a></div>}
+                    { project.github && <span>GitHub: <a className='proj_links' href={ project.github }>{ project.github }</a></span>}
                   </p>
                 </div>
                 <div className="cardinset">

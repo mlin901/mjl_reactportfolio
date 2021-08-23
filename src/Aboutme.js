@@ -1,9 +1,9 @@
 const Aboutme = () => {
   return ( 
     <div className="aboutme">
-      <section class="maincontent" id="aboutme">
+      <section className="maincontent" id="aboutme">
             <h2>About me</h2>
-            <div class="textcont">
+            <div className="textcont">
                 <p>Web Developer with experience in all phases of software product development, from requirements
                 and coding to quality assurance testing and post-implementation support. Earned a Certificate in
                 Full Stack Web Development from the University of California, Davis, with expertise in JavaScript, 
