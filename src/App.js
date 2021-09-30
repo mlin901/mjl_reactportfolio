@@ -14,7 +14,7 @@ function App() {
           <Navbar />
         <section id="subtitlearea">
           <figure></figure>
-          <p id="subtitle">Web developer and <br /> technical content specialist</p>
+          <p id="subtitle">Web Developer and <br /> Technical Content Specialist</p>
         </section>
 
         <main>

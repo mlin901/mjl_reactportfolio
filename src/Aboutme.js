@@ -4,7 +4,7 @@ const Aboutme = () => {
       <section className="maincontent" id="aboutme">
             <h2>About me</h2>
             <div className="textcont">
-                <p>Web Developer with experience in all phases of software product development, from requirements
+                <p>Web Developer and Technical Content Specialist with experience in all phases of software product development, from requirements
                 and coding to quality assurance testing and post-implementation support. Earned a Certificate in
                 Full Stack Web Development from the University of California, Davis, with expertise in JavaScript, 
                 jQuery, Node.js, React and more. Team-player focused on collaborative success, with excellent written 
